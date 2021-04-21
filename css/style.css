@@ -24,7 +24,7 @@
 }
 html{
 	font-size: 62.5%;
-	font-family: 'DM Sans', sans-serif;
+	font-family: 'DM Sans', 'sans-serif';
 }
 header{
 	position: relative;
@@ -51,7 +51,7 @@ header img{
 	height: 218px;
 	margin-top: 40px;
 	text-align: center;
-	align-items: center;
+	align-self: center;
 }
 .header--title-container h1{
 	font-size: 2.4rem;
@@ -62,7 +62,7 @@ header img{
 .header--title-container p{
 	margin-top: 25px;
 	font-size: 1.4rem;
-	font-weight: 400;
+	font-weight: 500;
 	line-height: 1.8rem;
 	color: var(--soft-orange);
 }
@@ -83,7 +83,7 @@ header img{
 	font-size: 1.4rem;
 	font-weight: bold;
 	text-decoration: none;
-	color: var(--black);
+	color: var(--warn-black);
 }
 .header--button span{
 	display: inline-block;
@@ -94,7 +94,7 @@ header img{
 }
 main{
 	width: 100%;
-	height: 100%;
+	height: auto;
 	background-color: var(--off-white);
 }
 .main-exchange-container{
@@ -125,7 +125,7 @@ main{
 	font-size: 2.4rem;
 	font-weight: bold;
 	line-height: 2.6rem;
-	color: var(--black);
+	color: var(--warn-black);
 }
 .main-exchange-container p{
 	margin-bottom: 30px;
@@ -143,14 +143,14 @@ main{
 	font-family: 'Inter', sans-serif;
 }
 .main-currency-table .currency-table--title{
-	margin-bottom: 15px,
+	margin-bottom: 15px;
 	font-size: 1.8rem;
 	font-weight: bold;
 	line-height: 2.3rem;
 	color: var(--bitcoin-orange);
 }
 .main-currency-table .currency-table--title-comision{
-	margin-bottom: 15px,
+	margin-bottom: 15px;
 	font-size: 1.8rem;
 	font-weight: bold;
 	line-height: 2.3rem;
@@ -348,7 +348,7 @@ main{
 .bitcoin-img-container{
 	width: 100%;
 	min-width: 320px;
-	height: 100vh;
+	height: 50vh;
 	background-image: url('../assets/img/bitcoinbaby2x.jpg');
 	background-position: center;
 	background-size: cover;
@@ -361,6 +361,7 @@ main{
 	font-weight: bold;
 	line-height: 2.6rem;
 	color: var(--just-white);
+	text-align: center;
 }
 .main-plans-container{
 	width: 100%;
@@ -400,7 +401,7 @@ main{
 	position: relative;
 	scroll-snap-align: center;
 	width: 70%;
-	min-width: 290px;
+	min-width: 190px;
 	max-width: 300px;
 	height: 250px;
 	margin: 50px 5px 0;
@@ -414,6 +415,7 @@ main{
 	width: 120px;
 	height: 31px;
 	padding: 6px;
+	font-size: 1.2rem;
 	top: -10px;
 	left: calc(50% - 60px);
 	font-size: 1.6rem;
@@ -430,7 +432,7 @@ main{
 }
 .plan-card-price{
 	padding: 5px 0;
-	 font-size: 5.2rem;
+	 font-size: 5.3rem;
 	 font-weight: bold;
 	 line-height: 5.3rem;
 	 color: black;
@@ -447,7 +449,7 @@ main{
 }
 .plan-card-ca{
 	width: 150px;
-	height: 38px;
+	height: 48px;
 	margin-top: 20px;
 	background-color: #fafbf7;
 	border: 2px solid  var(--bitcoin-orange);
@@ -456,6 +458,7 @@ main{
 	font-weight: bold;
 	line-height: 1.8rem;
 	color: var(--black);
+	font-family: 'DM Sans', 'sans-serif';
 }
 .plan-card-ca	span{
 	display: inline-block;
